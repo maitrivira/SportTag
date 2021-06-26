@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SportCell" rowHeight="141" id="KGk-i7-Jjw" customClass="SportTableViewCell" customModule="dicodingSubmision1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="141"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XfD-5a-rDj">
+                        <rect key="frame" x="18" y="18" width="120" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="MSk-wx-MSN"/>
+                            <constraint firstAttribute="height" constant="100" id="hS2-Vb-qmO"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxz-4z-vDt">
+                        <rect key="frame" x="152" y="16" width="229" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="229" id="Rru-wu-Lwh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LR3-zK-dWp">
+                        <rect key="frame" x="152" y="41" width="229" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="229" id="DMZ-oY-iKC"/>
+                            <constraint firstAttribute="height" constant="48" id="q0z-Pb-Oxs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mxz-4z-vDt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="4BA-eN-QGg"/>
+                    <constraint firstItem="Mxz-4z-vDt" firstAttribute="leading" secondItem="XfD-5a-rDj" secondAttribute="trailing" constant="14" id="ElQ-qm-4iJ"/>
+                    <constraint firstItem="XfD-5a-rDj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="Mzn-pY-zpe"/>
+                    <constraint firstAttribute="trailing" secondItem="LR3-zK-dWp" secondAttribute="trailing" constant="16" id="O0i-y8-u73"/>
+                    <constraint firstAttribute="bottom" secondItem="XfD-5a-rDj" secondAttribute="bottom" constant="18" id="ODp-7C-9xw"/>
+                    <constraint firstItem="LR3-zK-dWp" firstAttribute="leading" secondItem="XfD-5a-rDj" secondAttribute="trailing" constant="14" id="c8D-eO-ZNk"/>
+                    <constraint firstItem="XfD-5a-rDj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="kNA-By-62F"/>
+                    <constraint firstAttribute="trailing" secondItem="Mxz-4z-vDt" secondAttribute="trailing" constant="16" id="poT-2T-9tP"/>
+                    <constraint firstItem="LR3-zK-dWp" firstAttribute="top" secondItem="Mxz-4z-vDt" secondAttribute="bottom" constant="8" id="s2m-Vc-9oY"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="sportDescLabel" destination="LR3-zK-dWp" id="iL7-wu-p9w"/>
+                <outlet property="sportImageView" destination="XfD-5a-rDj" id="JNh-mo-9Bp"/>
+                <outlet property="sportTitleLabel" destination="Mxz-4z-vDt" id="rR8-fh-G1H"/>
+            </connections>
+            <point key="canvasLocation" x="196.37681159420291" y="173.10267857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

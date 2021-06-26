@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="dicodingSubmision1" customModuleProvider="target">
+            <connections>
+                <outlet property="detailDescLabel" destination="xSd-et-aCM" id="eie-Kz-bhd"/>
+                <outlet property="detailImgView" destination="wbF-nQ-DGw" id="q0K-fL-zPI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aO3-kq-nZi">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Li-f4-TaD">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="260.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W2W-IN-bDQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wbF-nQ-DGw">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="200" id="Gny-ot-rDr"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="200" id="L45-QS-UKT"/>
+                                        <constraint firstItem="wbF-nQ-DGw" firstAttribute="centerY" secondItem="W2W-IN-bDQ" secondAttribute="centerY" id="Sun-1F-d4w"/>
+                                        <constraint firstItem="wbF-nQ-DGw" firstAttribute="leading" secondItem="W2W-IN-bDQ" secondAttribute="leading" id="UGW-u2-fiD"/>
+                                        <constraint firstItem="wbF-nQ-DGw" firstAttribute="centerX" secondItem="W2W-IN-bDQ" secondAttribute="centerX" id="dFv-pT-r7s"/>
+                                        <constraint firstAttribute="trailing" secondItem="wbF-nQ-DGw" secondAttribute="trailing" id="lHt-pq-QLi"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wd1-tr-hmi">
+                                    <rect key="frame" x="0.0" y="200" width="414" height="60.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSd-et-aCM">
+                                            <rect key="frame" x="16" y="20" width="382" height="20.5"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="xSd-et-aCM" firstAttribute="top" secondItem="wd1-tr-hmi" secondAttribute="top" constant="20" id="HDr-nK-Ajv"/>
+                                        <constraint firstAttribute="bottom" secondItem="xSd-et-aCM" secondAttribute="bottom" constant="20" id="dh6-xo-dw6"/>
+                                        <constraint firstAttribute="trailing" secondItem="xSd-et-aCM" secondAttribute="trailing" constant="16" id="eua-zs-unE"/>
+                                        <constraint firstItem="xSd-et-aCM" firstAttribute="leading" secondItem="wd1-tr-hmi" secondAttribute="leading" constant="16" id="iHf-vw-X4O"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="4Li-f4-TaD" firstAttribute="trailing" secondItem="K45-D4-J7b" secondAttribute="trailing" id="1b8-1N-Sil"/>
+                        <constraint firstItem="4Li-f4-TaD" firstAttribute="width" secondItem="aO3-kq-nZi" secondAttribute="width" id="3ly-B2-1Jc"/>
+                        <constraint firstItem="K45-D4-J7b" firstAttribute="bottom" secondItem="4Li-f4-TaD" secondAttribute="bottom" id="BYe-AX-mVJ"/>
+                        <constraint firstItem="4Li-f4-TaD" firstAttribute="height" secondItem="aO3-kq-nZi" secondAttribute="height" priority="250" id="OQS-sm-L4a"/>
+                        <constraint firstItem="4Li-f4-TaD" firstAttribute="leading" secondItem="K45-D4-J7b" secondAttribute="leading" id="RUS-nN-Vfv"/>
+                        <constraint firstItem="4Li-f4-TaD" firstAttribute="top" secondItem="aO3-kq-nZi" secondAttribute="top" id="cSh-gi-8Q2"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="K45-D4-J7b"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="jTs-Vd-HZy"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="aO3-kq-nZi" secondAttribute="bottom" id="5OG-zn-JSk"/>
+                <constraint firstItem="aO3-kq-nZi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zyw-Sn-RLD"/>
+                <constraint firstItem="aO3-kq-nZi" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="axs-Qw-YWl"/>
+                <constraint firstItem="aO3-kq-nZi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="stI-Gs-t26"/>
+            </constraints>
+            <point key="canvasLocation" x="373.91304347826087" y="160.04464285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
