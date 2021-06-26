@@ -14,7 +14,7 @@
 
 | Icon                                                                           | License                                                                                                                                                               |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Store](/dicodingSubmision1/Base/Assets.xcassets/ball.png) | <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> |
+| ![Store](/dicodingSubmision1/Base/Assets.xcassets/ball.imageset/A6@2x.png) | <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> |
 
 ## 3rd Party Libraries
 
