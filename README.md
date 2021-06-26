@@ -8,7 +8,7 @@
 
 | Splash Screen                                    | Home Screen                                  | Detail Screen                                    | About Screen                                   |
 | ------------------------------------------------ | -------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- |
-| ![Splash Screen](/Screenshots/Splash-screen.png) | ![Home Screen](/Screenshots/Home-screen.png) | ![Detail Screen](/Screenshots/Detail-screen.png) | ![About Screen](/Screenshots/Profile-screen.png) |
+| ![Splash Screen](/Screenshots/Splash-screen.PNG) | ![Home Screen](/Screenshots/Home-screen.png) | ![Detail Screen](/Screenshots/Detail-screen.PNG) | ![About Screen](/Screenshots/Profile-screen.PNG) |
 
 ## Icon Licenses
 
